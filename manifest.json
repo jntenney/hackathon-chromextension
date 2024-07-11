@@ -6,6 +6,7 @@
   "author": "Alex Greenberg",
   "action": {
     "default_popup": "index.html",
-    "default_title": "Snake Game"
+    "default_title": "Snake Game",
+    "default_icon": "snake.png"
   }
 }
