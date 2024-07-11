@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const head = new Head(boardElement);
   const apple = new Apple(boardElement);
-  const gameBoard = new Board(boardElement, 14, head, apple);
+  const gameBoard = new Board(boardElement, 10, head, apple);
 
   body.addEventListener('keydown', (e) => {
     if (e.code === 'ArrowLeft') {
